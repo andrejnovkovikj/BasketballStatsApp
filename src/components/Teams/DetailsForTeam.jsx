@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Link, useParams} from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import service from "../Services/service.jsx";
 
 const DetailsForTeam = () => {
@@ -28,9 +28,9 @@ const DetailsForTeam = () => {
     }
 
     return (
-        <div className="min-h-screen w-screen flex flex-col items-center bg-[#FF5733] text-white pt-20">
-            <h1 className="text-4xl font-extrabold text-white mt-10 mb-6">{team.full_name}</h1>
-            <div className="bg-gray-800 p-6 rounded-xl shadow-lg max-w-lg w-full">
+        <div className="min-h-screen w-screen flex flex-col items-center bg-[#FF5733] text-white p-6 pt-20">
+            <h1 className="text-4xl font-extrabold text-center text-white mt-10 mb-6">{team.full_name}</h1>
+            <div className="bg-gray-800 p-6 rounded-xl shadow-lg w-full sm:max-w-lg mx-auto">
                 <p className="text-xl"><span className="font-semibold text-gray-300">City:</span> {team.city}</p>
                 <p className="text-xl"><span className="font-semibold text-gray-300">Conference:</span> {team.conference}</p>
                 <p className="text-xl"><span className="font-semibold text-gray-300">Division:</span> {team.division}</p>
@@ -42,7 +42,6 @@ const DetailsForTeam = () => {
             >
                 Back to Teams
             </Link>
-
         </div>
     );
 };

@@ -39,7 +39,7 @@ const Home = () => {
 
                 <Link
                     to="#"
-                    className="mt-6 px-4 py-2 bg-green-600 !text-white rounded-lg hover:bg-blue-600"
+                    className="mb-20 px-4 py-2 bg-green-600 !text-white rounded-lg hover:bg-blue-600"
                 >
                     Get Started
                 </Link>
