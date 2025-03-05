@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const Home = () => {
     return (
-            <div className="mt-15 fixed left-0 flex flex-col justify-start items-center min-h-screen  w-screen bg-[#FF5733] ">
+            <div className="mt-15 mb-20 fixed left-0 flex flex-col justify-start items-center min-h-screen  w-screen bg-[#FF5733] ">
                 <div className="w-full max-w-4xl flex justify-center items-center p-4">
                     <h1 className="text-3xl font-extrabold text-center">
                         NBA Stats Dashboard
